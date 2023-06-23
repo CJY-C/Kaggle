@@ -1,2 +1,4 @@
 #!/bin/bash
-mkdir /kaggle/working
+if [ ! -d "/kaggle/working" ]; then
+  mkdir /kaggle/working
+fi
