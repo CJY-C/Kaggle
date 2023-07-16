@@ -170,3 +170,5 @@ input/
 
 # output data
 output/
+local_output/
+bak/

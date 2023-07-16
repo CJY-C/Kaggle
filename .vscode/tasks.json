@@ -9,6 +9,15 @@
         "cwd": "/kaggle/input"
       },
       "problemMatcher": [],
+    },
+    {
+      "label": "kaggle models download",
+      "type": "shell",
+      "command": "kaggle models get ${input:userName}/${input:modelName} -p ${input:modelName}",
+      "options": {
+        "cwd": "/kaggle/input"
+      },
+      "problemMatcher": [],
     }
   ],
   "inputs":[
@@ -21,6 +30,11 @@
       "type": "promptString",
       "id": "datasetName",
       "description": "Kaggle dataset name"
+    },
+    {
+      "type": "promptString",
+      "id": "modelName",
+      "description": "Kaggle model name"
     }
   ]
 }

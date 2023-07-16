@@ -10,7 +10,9 @@
         "github.copilot-chat",
         "redjue.git-commit-plugin",
         "ms-toolsai.vscode-jupyter-cell-tags",
-        "ms-toolsai.jupyter-renderers"
+        "ms-toolsai.jupyter-renderers",
+        "mechatroner.rainbow-csv",
+        "janisdd.vscode-edit-csv"
     ],
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash",
@@ -19,8 +21,7 @@
     "devPort": 8887,
     "shutdownAction": "none",
     "mounts": [
-    "type=bind,source=${localWorkspaceFolder}/data/input,target=/kaggle/input",
-    "type=bind,source=${localWorkspaceFolder}/data/output,target=/kaggle/output"
+    "type=bind,source=${localWorkspaceFolder}/data/input,target=/kaggle/input"
     ],
     "containerEnv": {
     "KAGGLE_MODE": "DEV"

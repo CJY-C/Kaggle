@@ -1,0 +1,16 @@
+{
+  "id": "chenmasa/reproduction-medmnist-v3",
+  "title": "Reproduction MedMNIST v3",
+  "code_file": "palyground-medmnist-v2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "chenmasa/medmnist-integration"
+  ],
+  "kernel_sources": [],
+  "competition_sources": []
+}
