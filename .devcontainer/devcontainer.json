@@ -6,7 +6,7 @@
         "ms-python.vscode-pylance",
         "ms-toolsai.jupyter",
         "eamodio.gitlens",
-        "github.copilot-nightly",
+        "github.copilot",
         "github.copilot-chat",
         "redjue.git-commit-plugin",
         "ms-toolsai.vscode-jupyter-cell-tags",
@@ -18,10 +18,10 @@
         "terminal.integrated.shell.linux": "/bin/bash",
         "python.pythonPath": "/opt/conda/bin/python"
     },
-    "devPort": 8887,
+    "devPort": 8889,
     "shutdownAction": "none",
     "mounts": [
-    "type=bind,source=${localWorkspaceFolder}/data/input,target=/kaggle/input"
+        "type=bind,source=${localWorkspaceFolder}/data/input,target=/kaggle/input"
     ],
     "containerEnv": {
     "KAGGLE_MODE": "DEV"
