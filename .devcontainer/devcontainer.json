@@ -18,7 +18,7 @@
         "terminal.integrated.shell.linux": "/bin/bash",
         "python.pythonPath": "/opt/conda/bin/python"
     },
-    "devPort": 8889,
+    "devPort": 8887,
     "shutdownAction": "none",
     "mounts": [
         "type=bind,source=${localWorkspaceFolder}/data/input,target=/kaggle/input"
@@ -26,6 +26,6 @@
     "containerEnv": {
     "KAGGLE_MODE": "DEV"
     },
-    "postCreateCommand": ".devcontainer/setup.sh",
-    "postAttachCommand": ".devcontainer/setup-mounted.sh"
+    "postCreateCommand": [".devcontainer/setup.sh"],
+    "postAttachCommand": [".devcontainer/setup-mounted.sh", "git config --global --add safe.directory ${containerWorkspaceFolder}"]
 }
