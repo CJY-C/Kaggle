@@ -252,7 +252,7 @@ if __name__ == '__main__':
                         help='subset of MedMNIST',
                         type=str)
     parser.add_argument('--input_root',
-                        default='./input',
+                        default='/workspaces/Kaggle/data/input/medmnist-integration',
                         help='input root, the source of dataset files',
                         type=str)
     parser.add_argument('--output_root',
@@ -264,7 +264,7 @@ if __name__ == '__main__':
                         help='num of epochs of training',
                         type=int)
     parser.add_argument('--download',
-                        default=True,
+                        default=False,
                         help='whether download the dataset or not',
                         type=bool)
 

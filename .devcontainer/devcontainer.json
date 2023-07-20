@@ -12,7 +12,8 @@
         "ms-toolsai.vscode-jupyter-cell-tags",
         "ms-toolsai.jupyter-renderers",
         "mechatroner.rainbow-csv",
-        "janisdd.vscode-edit-csv"
+        "janisdd.vscode-edit-csv",
+        "nicepkg.gpt-runner"
     ],
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash",
