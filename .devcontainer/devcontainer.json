@@ -13,7 +13,8 @@
         "ms-toolsai.jupyter-renderers",
         "mechatroner.rainbow-csv",
         "janisdd.vscode-edit-csv",
-        "nicepkg.gpt-runner"
+        "nicepkg.gpt-runner",
+        "kisstkondoros.vscode-gutter-preview"
     ],
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash",

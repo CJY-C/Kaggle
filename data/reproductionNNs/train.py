@@ -8,8 +8,8 @@ import torch.optim as optim
 import torch.utils.data as data
 import torchvision.transforms as transforms
 
-from medmnist.models import ResNet18, ResNet50
-from medmnist.dataset import PathMNIST, ChestMNIST, DermaMNIST, OCTMNIST, PneumoniaMNIST, RetinaMNIST, \
+from data.reproductionNNs.models.ResNet import ResNet18, ResNet50
+from data.input.dataloader.dataset import PathMNIST, ChestMNIST, DermaMNIST, OCTMNIST, PneumoniaMNIST, RetinaMNIST, \
     BreastMNIST, OrganMNISTAxial, OrganMNISTCoronal, OrganMNISTSagittal
 from medmnist.evaluator import getAUC, getACC, save_results
 from medmnist.info import INFO

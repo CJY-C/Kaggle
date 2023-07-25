@@ -1,6 +1,7 @@
 {
     "python.analysis.extraPaths": [
         "./data/input/MedMNIST/MedMNIST-main",
-        "./data/input/MedMNIST/MedMNIST-main"
+        "./data/input/MedMNIST/MedMNIST-main",
+        "./data/input"
     ]
 }
